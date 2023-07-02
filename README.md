@@ -2,7 +2,7 @@
 
 ## Overview
 
-Drawing inspiration from influential thinkers such as Naval Ravikant, Elon Musk, Charlie Munger, and the Farnam Street Project, the Mental Model Assistant is an innovative web-based platform designed to solve intricate problems using well-established mental models. These luminaries champion the construction and application of a latticework of mental models as a systematic approach to problem-solving, rationalisation, and establishing truths.
+Drawing inspiration from influential thinkers such as Naval Ravikant, Elon Musk, Charlie Munger, and the Farnam Street Project, the Mental Model Assistant is a web-based platform designed to help solve problems and provide rationale using well-established mental models. These luminaries champion the construction and application of a latticework of mental models as a systematic approach to problem-solving, rationalisation, and establishing truths.
 
 ***"You’ve got to have models in your head. And you’ve got to array your experience both vicarious and direct on this latticework of models." - Charlie Munger***
 
