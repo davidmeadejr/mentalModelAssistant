@@ -1,4 +1,4 @@
-"# Mental Model Assistant
+# Mental Model Assistant
 
 ### Drawing from the Playbooks of the Greats
 
