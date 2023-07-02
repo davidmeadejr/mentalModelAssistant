@@ -1,30 +1,31 @@
-# Mental Model Assistant
+"# Mental Model Assistant
 
-## Overview
+### Drawing from the Playbooks of the Greats
 
-Drawing inspiration from influential thinkers such as Naval Ravikant, Elon Musk, Charlie Munger, and the Farnam Street Project, the Mental Model Assistant is a web-based platform designed to help solve problems and provide rationale using well-established mental models. These luminaries champion the construction and application of a latticework of mental models as a systematic approach to problem-solving, rationalisation, and establishing truths.
+In the quest for understanding and decision making, we're inspired by the wisdom of influential figures like Naval Ravikant, Elon Musk, Charlie Munger, and the Farnam Street Project. These trailblazers advocate for a latticework of mental models - a toolset of established thought frameworks - to systematically approach problem-solving, rationalisation, and truth formation.
 
-***"You’ve got to have models in your head. And you’ve got to array your experience both vicarious and direct on this latticework of models." - Charlie Munger***
+Here's Charlie Munger to illustrate: ***"You’ve got to have models in your head. And you’ve got to array your experience both vicarious and direct on this latticework of models."***
 
-Utilising this concept and leveraging chatGPT, the Mental Model Assistant provides useful assistance for problem-solving and rational thinking.
+Enter the Mental Model Assistant - where this latticework meets the machine learning capabilities of chatGPT. We aim to arm you with the very mental models these trailblazers swear by.
 
-## Features
+### Features
 
-The Mental Model Assistant offers the following capabilities:
+We're proud of what the Mental Model Assistant can do:
 
-- **Model Suggestion:** Proposes one or more relevant mental models to assist in problem-solving, accompanied by explanations highlighting their relevance.
-- **Process Guidance:** Lays out a step-by-step process to approach or solve the problem utilising the first-principles thinking mental model. It also higlights where the suggested mental models become relevant in the process.
-- **Resource Recommendation:** Provides a list of further reading materials on the suggested mental models, including blog articles and books.
+- **Model Suggestion:** Think of a problem, any problem. We'll suggest relevant mental models that may just guide you to the answer. And we'll tell you why they're relevant.
+- **Process Guidance:** Ready to break things down? We provide a step-by-step guide to applying the first-principles thinking mental model. Plus, we'll pinpoint where other suggested models could weave into your thought process.
+- **Resource Recommendation:** Dive deeper with our recommended reading list. From blogs to books, these resources will help you understand the suggested mental models in-depth.
 
-## Tech Stack
+### Built With
 
-The app is built using the following technologies:
+Our app is the product of:
 
-- TypeScript
-- Next.js
-- Tailwind CSS
-- OpenAI API
+- TypeScript's robust static types
+- The server-side rendering of Next.js
+- The utility-first CSS of Tailwind
+- The language modelling of OpenAI API
 
-## How to Use
+### Use It, Share It, Love It
 
-To use the Mental Model Assistant, visit [Mental Model Assistant](...) and enter your problem or question into the text box provided.
+Experience the Mental Model Assistant for yourself at [Mental Model Assistant](...). Simply key in your problem or question into our text box and watch the magic unfold. We're eager to hear your feedback!"
+
