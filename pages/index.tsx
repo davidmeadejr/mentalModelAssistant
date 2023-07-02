@@ -5,9 +5,11 @@ import "tailwindcss/tailwind.css";
 import { ChangeEvent, useState } from "react";
 import GenerateButton from "@/components/GenerateButton";
 import PromptBox from "@/components/PromptBox";
+import ApiOutput from "@/components/ApiOutput";
 
 const Home = () => {
   const [userInput, setUserInput] = useState("");
+  const [apiOutput, setApiOutput] = useState("");
 
   const onUserChangedText = (event: ChangeEvent<HTMLTextAreaElement>) => {
     console.log(event.target.value);
@@ -22,7 +24,7 @@ const Home = () => {
       <div className="flex justify-center items-start items-center flex-initial flex-col gap-16 overflow-auto p-12 relative w-auto">
         <div className="flex-col gap-3 ">
           <div className="w-full font-bold text-7xl leading-snug text-center m-0">
-            <h1>🕸️ Mental Model Assistant</h1>
+            <h1>🧠 🕸️ Mental Model Assistant</h1>
           </div>
           <div className="text-xl font-normal leading-normal text-white text-opacity-75">
             &quot;You’ve got to have models in your head. And you’ve got to
@@ -36,8 +38,9 @@ const Home = () => {
               userInput={userInput}
               onUserChangedText={onUserChangedText}
             />
-            <GenerateButton userInput={userInput} />
+            <GenerateButton userInput={userInput} setApiOutput={setApiOutput} />
           </div>
+          <ApiOutput apiOutput={apiOutput} />
         </div>
       </div>
     </div>
