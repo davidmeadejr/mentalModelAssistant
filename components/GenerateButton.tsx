@@ -38,7 +38,7 @@ const GenerateButton = ({
       className="inline-flex items-center justify-center rounded-full bg-red-500 p-4 gap-2 text-white cursor-pointer"
       onClick={callGenerateEndpoint}
     >
-      <p className="m-0">Generate</p>
+      <p className="m-0">{isGenerating ? "Loading..." : "Generate"}</p>
     </a>
   );
 };
