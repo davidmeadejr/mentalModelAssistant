@@ -2,7 +2,7 @@
 
 ### Drawing from the Playbooks of the Greats
 
-In the quest for understanding and decision making, we're inspired by the wisdom of influential figures like Naval Ravikant, Elon Musk, Charlie Munger, and the Farnam Street Project. These trailblasers advocate for a latticework of mental models - a toolset of established thought frameworks - to systematically approach problem-solving, rationalisation, and truth formation.
+In the quest for understanding and decision making, we're inspired by the wisdom of influential figures like Naval Ravikant, Elon Musk, Charlie Munger, and the Farnam Street Project. These trailblazers advocate for a latticework of mental models - a toolset of established thought frameworks - to systematically approach problem-solving, rationalisation, and truth formation.
 
 Here's Charlie Munger to illustrate: ***"You’ve got to have models in your head. And you’ve got to array your experience both vicarious and direct on this latticework of models."***
 
@@ -27,5 +27,4 @@ The app is the product of:
 
 ### Use It, Share It, Love It
 
-Experience the Mental Model Assistant for yourself at [Mental Model Assistant](...). Simply key in your problem or question into the prompt box and watch the magic unfold.
-
+Experience the Mental Model Assistant for yourself at [Mental Model Assistant](...). Simply explain your problem or question into the prompt box and watch the magic unfold.
