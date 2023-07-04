@@ -71,7 +71,7 @@ or "Mathematics"
 - Surface Area
 - Global and Local Maxima
 
-First, in the style of Sahil Lavingia provide a brief intro regarding the problem statement or question and how mental models can help. Please note the given problem statement or question includes their name. So that person who wrote the given problem or question reads the output as if they are being spoken to directly. Also note that this section does not need the title e.g. "introduction", the sentence can just be written.
+Written in the style of Sahil Lavingia write me a blog post where first, in the style of Sahil Lavingia provide a brief intro greeting the reader (if they have a name, greet them with the name) regarding the problem statement or question and how mental models can help. Please note the given problem statement or question includes their name. So that person who wrote the given problem or question reads the output as if they are being spoken to directly. If no name is mentioned don't mention a name.
 
 Then underneath that intro, under the title called 'Top 3 Mental Models:', identify the top three mental most useful and relevant mental models from the mentioned list and in a short, clear and concise single sentence discuss their relevance to the problem. This section should also be written in the style of Sahil Lavingia and include the given name so the person can feel they are having a more tailored response. Also, this section should look like this:
 

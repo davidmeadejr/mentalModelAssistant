@@ -3,9 +3,11 @@ import React, { useState } from "react";
 const GenerateButton = ({
   userInput,
   setApiOutput,
+  resetUserInput,
 }: {
   userInput: string;
   setApiOutput: React.Dispatch<React.SetStateAction<string>>;
+  resetUserInput: () => void;
 }) => {
   const [isGenerating, setIsGenerating] = useState(false);
 
@@ -30,6 +32,7 @@ const GenerateButton = ({
 
       setApiOutput(output);
       setIsGenerating(false);
+      resetUserInput();
     }
   };
 

@@ -10,6 +10,7 @@ import ApiOutput from "@/components/ApiOutput";
 const Home = () => {
   const [userInput, setUserInput] = useState("");
   const [apiOutput, setApiOutput] = useState("");
+  const resetUserInput = () => setUserInput("");
 
   const onUserChangedText = (event: ChangeEvent<HTMLTextAreaElement>) => {
     console.log(event.target.value);
@@ -38,7 +39,11 @@ const Home = () => {
               userInput={userInput}
               onUserChangedText={onUserChangedText}
             />
-            <GenerateButton userInput={userInput} setApiOutput={setApiOutput} />
+            <GenerateButton
+              userInput={userInput}
+              setApiOutput={setApiOutput}
+              resetUserInput={resetUserInput}
+            />
           </div>
           <ApiOutput apiOutput={apiOutput} />
         </div>

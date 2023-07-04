@@ -24,7 +24,7 @@ const generateAction = async (req: NextApiRequest, res: NextApiResponse) => {
                 content: `${basePromptPrefix}${req.body.userInput}`
 
             }],
-            temperature: 1,
+            temperature: 0.7,
             max_tokens: 1000,
         });
 
