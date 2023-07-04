@@ -1,5 +1,6 @@
 import { Configuration, OpenAIApi } from "openai";
 import { NextApiRequest, NextApiResponse } from "next";
+import { basePromptPrefix } from "@/constants/basePromptPrefix";
 
 const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
@@ -20,10 +21,11 @@ const generateAction = async (req: NextApiRequest, res: NextApiResponse) => {
             model: "gpt-3.5-turbo",
             messages: [{
                 role: "user",
-                content: req.body.userInput
+                content: `${basePromptPrefix}${req.body.userInput}`
+
             }],
-            temperature: 0.7,
-            max_tokens: 250,
+            temperature: 1,
+            max_tokens: 1000,
         });
 
         console.log('Response from OpenAI API: ', completionResponse);

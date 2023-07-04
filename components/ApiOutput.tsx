@@ -13,7 +13,7 @@ const ApiOutput = ({ apiOutput }: { apiOutput: string }) => {
         </div>
       </div>
       <div className="flex flex-col justify-start flex-no-shrink">
-        <p className="text-center whitespace-pre-line text-white text-opacity-50">
+        <p className="text-left whitespace-pre-line text-opacity-50">
           {apiOutput}
         </p>
       </div>
