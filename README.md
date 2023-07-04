@@ -14,7 +14,7 @@ Here's what the Mental Model Assistant can do:
 
 - **Model Suggestion:** Think of a problem, any problem. It will suggest relevant mental models that may just guide you to the answer. And it will tell you why they're relevant.
 - **Process Guidance:** Ready to break things down? It will provide a step-by-step guide to applying the first-principles thinking mental model. Plus, it will pinpoint where other suggested models could weave into your thought process.
-- **Resource Recommendation:** Dive deeper through the recommended reading list. From blogs to books, these resources will help you understand the suggested mental models in-depth.
+- **Resource Recommendation:** Dive deeper through the recommended reading list. From blogs to books, these resources will help you understand the suggested mental models in-depth. #TODO
 
 ## Built With
 
