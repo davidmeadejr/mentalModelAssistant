@@ -25,6 +25,6 @@ The app is the product of:
 - The utility-first CSS of Tailwind
 - The language modelling of OpenAI API
 
-## Use It, Share It, Love It
+<!-- ## Use It, Share It, Love It
 
-Experience the Mental Model Assistant for yourself at [Mental Model Assistant](https://mentalmodelassistant.vercel.app/). Simply explain your problem or question into the prompt box and watch the magic unfold.
+Experience the Mental Model Assistant for yourself at [Mental Model Assistant](https://mentalmodelassistant.vercel.app/). Simply explain your problem or question into the prompt box and watch the magic unfold. -->
