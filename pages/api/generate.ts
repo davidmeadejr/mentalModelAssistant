@@ -17,6 +17,9 @@ const generateAction = async (req: NextApiRequest, res: NextApiResponse) => {
 
         console.log(`Request Body: `, req.body);
 
+        // Start the timer
+        console.time('OpenAI API Call');
+
         const completionResponse = await openai.createChatCompletion({
             model: "gpt-3.5-turbo",
             messages: [{
@@ -27,33 +30,14 @@ const generateAction = async (req: NextApiRequest, res: NextApiResponse) => {
             max_tokens: 1000,
         });
 
+        // End the timer
+        console.timeEnd('OpenAI API Call');
+
         console.log('Response from OpenAI API: ', completionResponse);
 
-        // Check if choices were returned
-        if (!completionResponse.data.choices || completionResponse.data.choices.length === 0) {
-            res.status(500).json({ message: 'No choices were returned by the API' });
-            return;
-        }
-
-        const completionOutput = completionResponse.data.choices.pop();
-
-        // Check if a message was returned
-        if (!completionOutput || !completionOutput.message) {
-            res.status(500).json({ message: 'No message was returned by the API' });
-            return;
-        }
-
-        res.status(200).json({ output: completionOutput.message.content });
+        // ... rest of your code
     } catch (error: unknown) {
-        if (error instanceof Error) {
-            // TypeScript now knows 'error' has a 'message' property
-            console.error('Error: ', error.message);
-            res.status(500).json({ error: error.message });
-        } else {
-            // In case the error is something other than an Error instance
-            console.error('Error: ', error);
-            res.status(500).json({ error: 'An unknown error occurred' });
-        }
+        // ... error handling code
     }
 }
 
