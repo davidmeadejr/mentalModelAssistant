@@ -22,7 +22,6 @@ const generateAction = async (req: NextApiRequest, res: NextApiResponse) => {
             messages: [{
                 role: "user",
                 content: `${basePromptPrefix}${req.body.userInput}`
-
             }],
             temperature: 0.7,
             max_tokens: 1000,
@@ -45,9 +44,16 @@ const generateAction = async (req: NextApiRequest, res: NextApiResponse) => {
         }
 
         res.status(200).json({ output: completionOutput.message.content });
-    } catch (error) {
-        console.error('Error: ', error);
-        res.status(500).json({ error: 'Internal server error' });
+    } catch (error: unknown) {
+        if (error instanceof Error) {
+            // TypeScript now knows 'error' has a 'message' property
+            console.error('Error: ', error.message);
+            res.status(500).json({ error: error.message });
+        } else {
+            // In case the error is something other than an Error instance
+            console.error('Error: ', error);
+            res.status(500).json({ error: 'An unknown error occurred' });
+        }
     }
 }
 
